@@ -360,30 +360,8 @@ grep 'metabat.20' ../gtdbtk/out/gtdbtk.bac120.summary.tsv
 
 ``` r
 library(tidyverse)
-```
-
-    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ## ✔ dplyr     1.1.4     ✔ readr     2.1.5
-    ## ✔ forcats   1.0.1     ✔ stringr   1.5.2
-    ## ✔ ggplot2   4.0.0     ✔ tibble    3.3.0
-    ## ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
-    ## ✔ purrr     1.1.0     
-    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-    ## ✖ dplyr::filter() masks stats::filter()
-    ## ✖ dplyr::lag()    masks stats::lag()
-    ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-
-``` r
 gtdbtk_results <- read_tsv("gtdbtk/out/gtdbtk.bac120.summary.tsv") # create r object to view results more easily 
 ```
-
-    ## Rows: 18 Columns: 20
-    ## ── Column specification ────────────────────────────────────────────────────────
-    ## Delimiter: "\t"
-    ## chr (20): user_genome, classification, fastani_reference, fastani_reference_...
-    ## 
-    ## ℹ Use `spec()` to retrieve the full column specification for this data.
-    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 Question 4.2 How many bins contain the pathway PWY-5360?
 

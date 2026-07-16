@@ -349,7 +349,7 @@ grep 'metabat.20' ../gtdbtk/out/gtdbtk.bac120.summary.tsv
 
 ```
 
-```{r}
+```{r, warning = F, message = F}
 library(tidyverse)
 gtdbtk_results <- read_tsv("gtdbtk/out/gtdbtk.bac120.summary.tsv") # create r object to view results more easily 
 ```
